@@ -20,3 +20,7 @@ while countdown > 0:
     
     pygame.display.update()
     pygame.time.delay(1000)
+    
+if countdown == 0:
+    pygame.quit()
+    sys.exit()
